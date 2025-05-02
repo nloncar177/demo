@@ -9,7 +9,7 @@ FROM tomcat:10.1.4
 #COPY --from=build /app/target/demo.war /usr/local/tomcat/webapps/ROOT.war
 
 # Kopiraj svoj .war file kao ROOT.war (da se aplikacija otvori direktno)
-# COPY target/demo.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/demo.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port (nije obavezan jer Render zna koristiti 10000 interni port)
 EXPOSE 8080

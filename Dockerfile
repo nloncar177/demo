@@ -6,7 +6,7 @@ FROM tomcat:10.1.4
 
 
 FROM maven:3.9.6-eclipse-temurin-21 AS builder
-WORKDIR /app
+#WORKDIR /app
 RUN mvn clean package
 
 # Faza 2: deploy na Tomcat

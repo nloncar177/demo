@@ -5,13 +5,13 @@ FROM tomcat:10.1.4
 # RUN rm -rf /usr/local/tomcat/webapps/*
 
 
-FROM maven:3.9.6-eclipse-temurin-21 AS builder
+#FROM maven:3.9.6-eclipse-temurin-21 AS builder
 #WORKDIR /app
-RUN mvn clean package
+#RUN mvn clean package
 
 # Faza 2: deploy na Tomcat
-FROM tomcat:10.1
-RUN rm -rf /usr/local/tomcat/webapps/*
+#FROM tomcat:10.1
+#RUN rm -rf /usr/local/tomcat/webapps/*
 COPY --from=builder /app/target/demo.war /usr/local/tomcat/webapps/ROOT.war
 
 

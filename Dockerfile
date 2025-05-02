@@ -16,7 +16,7 @@ FROM tomcat:10.1.4
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Kopiraj demo.war iz lokalne mape target/ u ROOT.war unutar Tomcata
-COPY target/demo.war /usr/local/tomcat/webapps/ROOT.war
+COPY ./target/demo.war /usr/local/tomcat/webapps/ROOT.war
 
 
 # Expose port (nije obavezan jer Render zna koristiti 10000 interni port)

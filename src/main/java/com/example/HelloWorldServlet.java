@@ -211,7 +211,7 @@ public class HelloWorldServlet extends HttpServlet {
 
         ab = Rulet(rezultat, ab);
         
-        response.getWriter().println("<html> <head> <style> *{text-align: center; } .pl {line-height: 0; } </style> </head> <body>");
+        response.getWriter().println("<html> <head> <style> *{text-align: center; } .pl {line-height: 0; padding-top: 30px; } </style> </head> <body>");
 
         response.getWriter().println(WriteResp(ab));
 

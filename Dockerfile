@@ -1,5 +1,5 @@
 # Koristi službeni Tomcat kao bazu
-FROM tomcat:9.0
+FROM tomcat:10.1.4
 
 # Izbriši default aplikacije ako želiš čisti Tomcat
 # RUN rm -rf /usr/local/tomcat/webapps/*

@@ -278,9 +278,9 @@
             }
         ]
     },
-    "java.project.referencedLibraries": [ "c:\\Users\\ANA\\Downloads\\java\\demo\\lib\\javax.servlet-api-4.0.1" ],
-    "jdk.jdkhome": "c:\\Users\\ANA\\Downloads\\java\\OpenJDK-24",
-    "java.jdt.ls.java.home": "c:\\Users\\ANA\\Downloads\\java\\OpenJDK-24",
+    "java.project.referencedLibraries": [ "c:\\Users\\ANA\\Downloads\\java\\demo\\demo\\lib\\javax.servlet-api-4.0.1" ],
+    "jdk.jdkhome": "c:\\Users\\ANA\\Downloads\\java\\demo\\OpenJDK-24",
+    "java.jdt.ls.java.home": "c:\\Users\\ANA\\Downloads\\java\\demo\\OpenJDK-24",
     "tomcat.autoDeployMode": "Disabled",
     "java.configuration.updateBuildConfiguration": "interactive"
 }
